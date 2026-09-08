@@ -1,0 +1,15 @@
+# Rust
+/engine/target/
+**/*.rs.bk
+
+# Python
+/client/.venv/
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
+
+#plan
+mini-vllm-project-plan.md

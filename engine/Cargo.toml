@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "crates/tensor-core",
+    "crates/model",
+    "crates/kv-cache",
+    "crates/scheduler",
+    "crates/server",
+]
+resolver = "2"
