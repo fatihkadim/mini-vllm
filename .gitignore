@@ -1,11 +1,22 @@
 # Rust
 /engine/target/
+target/
 **/*.rs.bk
 
 # Python
 /client/.venv/
+.venv/
 __pycache__/
 *.pyc
+.pytest_cache/
+
+# Model ağırlıkları (büyük dosyalar, scripts/download_model.py ile indirilir)
+/models/
+*.safetensors
+
+# IDE
+.vscode/
+.idea/
 
 # OS
 .DS_Store
@@ -13,3 +24,6 @@ Thumbs.db
 
 #plan
 mini-vllm-project-plan.md
+
+# Kişisel notlar (öğrenme planı, haftalık günlük)
+/docs/
